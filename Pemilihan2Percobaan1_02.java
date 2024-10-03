@@ -6,13 +6,23 @@ import java.util.Scanner;
 
             System.out.println("masukkan tahun");
             int tahun = input02.nextInt();
-        
+         
             if (( tahun % 4 ) ==0) {
-                if ((tahun % 100) !=0);
-                System.out.println("Tahun Kabisat");
-             } else
-                System.out.println("Bukan Tahun Kabisat");
-
+                if ((tahun % 100) !=0) {
+                     if (tahun % 400 != 0) {
+                     System.out.println(tahun + "tahun kabisat");
+                    } else {
+                    System.out.println("Bukan Tahun Kabisat");
+                    }
+                } else {
+                    System.out.println(" Bukan Tahun Kabisat");
+                }
+             } else {
+            System.out.println("Tahun Kabisat");
+            }
+          } 
 
         }
-    }
+
+        
+    
