@@ -27,7 +27,7 @@ public class Pemilihan2Percobaan2_02 {
 
         System.out.println("----------------------------------");
         
-        if (member.equalsIgnoreCase("y")) { 
+        if (member.equals("Y")) { 
             diskon = 0.10;
         System.out.println("Diskon 10%");
         if (pilihan_menu == 1) {
@@ -75,7 +75,7 @@ public class Pemilihan2Percobaan2_02 {
     }
     
     
-    System.out.println("Total bayar = " + harga);
+    System.out.println("Total bayar = " + harga); 
 
     if (SystemPembayaran.equalsIgnoreCase("QRIS")) {
 
@@ -90,5 +90,5 @@ public class Pemilihan2Percobaan2_02 {
 System.out.println("------------------------------");
    
     }
-     }
+    }
     
